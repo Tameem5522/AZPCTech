@@ -3,13 +3,8 @@ body {
    font-family: Arial, sans-serif;
    margin: 0;
    padding: 0;
-   background-color: #BAB86C;
-   color: #186;
-   line-height: 1.6;
-}
-h1, h2 {
-   text-align: center;
-   color: #CD853F;
+   background-color: #bab86c; /* Olive Green */
+   color: #333;
 }
 /* Navigation Bar */
 nav ul {
@@ -18,7 +13,7 @@ nav ul {
    margin: 0;
    display: flex;
    justify-content: center;
-   background-color: #CD853F;
+   background-color: #2a2a2a;
 }
 nav ul li {
    margin: 0 15px;
@@ -41,7 +36,10 @@ section {
    border-radius: 8px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-/* Contact Form */
+h1, h2 {
+   color: #2a2a2a;
+}
+/* Form Styles */
 form {
    display: flex;
    flex-direction: column;
@@ -54,11 +52,11 @@ input, textarea, button {
    border-radius: 4px;
 }
 button {
-   background-color: #CD853F;
+   background-color: #007BFF;
    color: white;
    border: none;
    cursor: pointer;
 }
 button:hover {
-   background-color: #8FBC8F;
+   background-color: #0056b3;
 }
